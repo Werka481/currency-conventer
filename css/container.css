@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: #196723;
+    color: #f5f5dc;
+}
+
+.paragraph--result {
+    text-align: left;
+}
