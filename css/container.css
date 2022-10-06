@@ -12,6 +12,10 @@ html {
     max-width: 600px;
     margin: 0 auto;
     padding: 0 15px;
+    background-image: url("../images/banner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .paragraph {
