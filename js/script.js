@@ -9,7 +9,7 @@
 
         const result = amount / exchange;
 
-        let currency = exchangeCurrency(exchange);
+        const currency = exchangeCurrency(exchange);
         updateResultText(result, currency);
     }
 
@@ -18,13 +18,11 @@
 
         switch (exchange) {
             case "4.86":
-                currency = "EUR";
-                break;
+                return "EUR";
             case "4.95":
-                currency = "USD";
-                break;
+                return "USD";
             default:
-                currency = "GBP";
+                return "GBP";
         }
     }
 
