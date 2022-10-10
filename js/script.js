@@ -9,23 +9,23 @@
 
         const result = amount / exchange;
 
-        exchangeCurrency(currency);
+        let currency = exchangeCurrency(exchange);
+        updateResultText(result, currency);
     }
 
-    const exchangeCurrency = (currency) => {
-        const currency = currency.value;
+    const exchangeCurrency = (exchange) => {
+        let currency;
 
-        switch (currency) {
+        switch (exchange) {
             case "4.86":
-                currency.innerText = "EUR";
+                currency = "EUR";
                 break;
             case "4.95":
-                currency.innerText = "USD";
+                currency = "USD";
                 break;
             default:
-                currency.innerText = "GBP";
+                currency = "GBP";
         }
-        updateResultText(result, currency);
     }
 
     const updateResultText = (result, currency) => {
