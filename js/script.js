@@ -5,18 +5,18 @@
         const exchangeElement = document.querySelector(".js-exchange");
 
         const amount = amountElement.value;
-        const exchange = exchangeElement.value;
+        const exchangeRate = exchangeElement.value;
 
-        const result = amount / exchange;
+        const result = amount / exchangeRate;
 
-        const currency = exchangeCurrency(exchange);
+        const currency = exchangeCurrency(exchangeRate);
         updateResultText(result, currency);
     }
 
-    const exchangeCurrency = (exchange) => {
+    const exchangeCurrency = (exchangeRate) => {
         let currency;
 
-        switch (exchange) {
+        switch (exchangeRate) {
             case "4.86":
                 return "EUR";
             case "4.95":
