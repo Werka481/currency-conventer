@@ -7,7 +7,7 @@ https://werka481.github.io/currency-conventer/
 ## Description
 The currency-converter exchange PLN into euro, dollar or british pound. There are two buttons in the project. The first is responsible for recalculation and the second is for resetting the form. I invite you to watch the instructions.
 
-![instruction gif](images/converter.screen.gif)
+![instruction gif](images/converter.currency.gif)
 ## Technologies used:
 1. BEM
 2. CSS Flex-box
